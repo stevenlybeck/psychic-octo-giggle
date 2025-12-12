@@ -5,7 +5,7 @@
 pnpm install
 ```
 
-2. Run the app with NODE_ENV=production:
+2. Run the app with NODE_ENV=production which ensures UntrustedHost error will happen:
 ```bash
 pnpm repro_dev
 ```
