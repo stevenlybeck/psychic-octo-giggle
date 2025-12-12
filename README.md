@@ -9,3 +9,6 @@ pnpm install
 ```bash
 pnpm repro_dev
 ```
+
+3. Visit http://localhost:3000
+4. Note that it triggers logged-in flow (i.e. session object is truthy) in spite of errors in the auth config.
